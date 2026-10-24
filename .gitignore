@@ -1,0 +1,21 @@
+# Binarios
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependencias vendorizadas
+vendor/
+
+# Test
+*.test
+*.out
+coverage.*
+
+# Entorno y logs
+.env
+.env.*
+!.env.example
+*.log
